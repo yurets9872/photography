@@ -70,15 +70,22 @@ body {
   text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 16px;
+    margin: 0 16px;
+    padding-bottom: 5px;
     color: #fff;
     font-size: 14px;
     font-family: 'Lato-Semibold';
     letter-spacing: 1;
     cursor: pointer;
+    border-bottom: 3px solid transparent;
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 25px;
 }
 .headSocials a:hover {
-  color:#DB4453;
+  border-bottom: 3px solid #DB4453;
+   width: 200px;
 }
 /*HEADER*/
 
@@ -106,23 +113,34 @@ header {
 }
 .navigation {
     width: 100%;
-    max-width: 285px;
+    max-width: 344px;
     float: right;
     display: blok;
     line-height: 70px;
 }
 .navigation a {
-    font-family: Helvetica,sans-serif;
-    font-size: 12px;
-    padding-right: 24px;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2;
-    font-weight: 900;
-    color: #545454;
-    transition: easy-out, easy-in, 250ms;
+  font-family: Helvetica,sans-serif;
+  font-size: 12px;
+  margin-right: 24px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2;
+  font-weight: 900;
+  color: #545454;
+  transition: easy-out, easy-in, 250ms;
+  border-bottom: 3px solid transparent;
+  width: 0px;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 25px
 }
-
+.navigation a:hover {
+  border-bottom: 3px solid #DB4453;
+   width: 200px;
+   color: #DB4453;
+}
 .navigation .hireBtn {
     color: #DB4453;
     padding: 14px 16px;
@@ -134,9 +152,7 @@ header {
     color: white;
     background-color: #DB4453;
 }
-.navigation a:hover {
-    color: #DB4453;
-}
+
 
 
 .fullNav {
@@ -155,7 +171,7 @@ header {
     z-index: -1;
 }
 .fullNav .close {
-    background-image: url(images/delete_sign-24.png);
+    background-image: url('./images/17x.jpg');
     width: 24px;
     height: 24px;
     float: right;
@@ -226,9 +242,9 @@ header {
     margin: 40px 0 100px 0;
 }
 .separator {
-    width: 100px;
-    height: 1px;
-    background-color: #777;
+  width: 100px;
+  height: 2px;
+  background-color: #DB4453;
 
 }
 
@@ -239,7 +255,7 @@ header {
 
 .galleryContent {
     width: 100%;
-    padding: 64px 0;
+    padding: 106px 0;
     background-color: #f9f9f9;
     float: left;
 }
@@ -265,6 +281,8 @@ header {
   margin:5px;
   box-sizing: border-box;
   background: #e3e3e3;
+  position: relative;
+  overflow: hidden;
 }
 .tinyImg {
   max-width: 285px;
@@ -276,6 +294,8 @@ header {
   margin:5px;
   box-sizing: border-box;
   background: #e3e3e3;
+  position: relative;
+  overflow: hidden;
 }
 .middleImg {
   max-width: 383.33px;
@@ -285,23 +305,39 @@ header {
   float: left;
   margin: 5px;
   background: #e3e3e3;
+  position: relative;
+  overflow: hidden;
 }
-.noRightMargin{
+.img {
+  position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: -50%;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    width: 180%;
+}
+.imgBox:hover .img {
+   transform: scale(1.1);
+}
+.noRightMargin {
   margin-right: 0;
 }
-.noLeftMargin{
+.noLeftMargin {
   margin-left: 0;
 }
 
 /*END OF GALLERY*/
-
+.clear {
+  clear: both;
+}
 /*FOOTER*/
 
 footer {
     width: 100%;
     max-width: 1170px;
-    margin: 64px auto 0;
-    padding: 0 20px;
+    margin: 64px auto;
+    padding: 0 20px 150px;
 }
 .address{
     width: 33%;
