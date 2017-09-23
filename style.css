@@ -320,6 +320,28 @@ header {
 .imgBox:hover .img {
    transform: scale(1.1);
 }
+.imgCategory {
+  position: absolute;
+    top: 20;
+    left: 20;
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+    color: #fff;
+    background: #673AB7;
+    padding: 6px 8px;
+    border-radius: 3px;
+}
+.imgTitle {
+  position: absolute;
+    bottom: 20;
+    left: 20;
+    font-size: 24px;
+    font-family: 'Lato-Regular',sans-serif;
+    color: #fff;
+     background: rgba(0,0,0,0.3);
+    padding: 10px 12px;
+    border-radius: 3px;
+}
 .noRightMargin {
   margin-right: 0;
 }
