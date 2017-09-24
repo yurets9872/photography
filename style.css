@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .fullPage {
+  max-width: 100%;
   width: 100vw;
   height: 100vh;
   display: block;
   background: url(images/17x.jpg) 50% 50%;
   background-color: #FFF2D5;
+  background-repeat: no-repeat;
   position: relative;
 }
 .titleWrapper{
@@ -113,20 +120,20 @@ header {
 }
 .navigation {
     width: 100%;
-    max-width: 344px;
+    max-width: 346px;
     float: right;
     display: blok;
     line-height: 70px;
 }
 .navigation a {
-  font-family: Helvetica,sans-serif;
-  font-size: 12px;
+  font-family: 'Lato-Semibold',sans-serif;
+  font-size: 14px;
   margin-right: 24px;
   padding-bottom: 5px;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 2;
+  letter-spacing: 1;
   font-weight: 900;
   color: #545454;
   transition: easy-out, easy-in, 250ms;
@@ -166,9 +173,10 @@ header {
     line-height: 70px;
     background-color: rgba(0,0,0,0.9);
     margin: 0 auto;
-    padding-top:50% 20px;
+    padding:50% 20px;
     transition: opacity 0.3s ease-in-out;
     z-index: -1;
+    display: none;
 }
 .fullNav .close {
     background-image: url('./images/17x.jpg');
@@ -227,8 +235,7 @@ header {
     padding: 0 20px;
 }
 .mainHeading {
-    font-family: Helvetica, sans-serif;
-    font-weight: 500;
+    font-family: 'Raleway-Regular', sans-serif;
     color: #555;
     margin: 65px 0 40px 0;
 }
@@ -271,6 +278,10 @@ header {
   float: left;
   width: 50%;
 }
+.middle {
+  float: left;
+  width: 100%;
+}
 .largeImg {
   max-width: 580px;
   max-height: 580px;
@@ -308,6 +319,17 @@ header {
   position: relative;
   overflow: hidden;
 }
+.imgOverlay {
+  position: relative;
+    height: 100%;
+    display: block;
+    max-width: 580px;
+    max-height: 580px;
+    z-index: 20;
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    transition: easy-out, easy-in, 300ms;
+}
 .img {
   position: absolute;
     margin: 0 auto;
@@ -320,10 +342,13 @@ header {
 .imgBox:hover .img {
    transform: scale(1.1);
 }
+.imgBox:hover .imgOverlay {
+   opacity: 1;
+}
 .imgCategory {
   position: absolute;
-    top: 20;
-    left: 20;
+    top: 24;
+    left: 24;
     font-size: 16px;
     font-family: 'Lato',sans-serif;
     color: #fff;
@@ -336,11 +361,9 @@ header {
     bottom: 20;
     left: 20;
     font-size: 24px;
-    font-family: 'Lato-Regular',sans-serif;
+    font-family: 'Lato-Light',sans-serif;
     color: #fff;
-     background: rgba(0,0,0,0.3);
     padding: 10px 12px;
-    border-radius: 3px;
 }
 .noRightMargin {
   margin-right: 0;
