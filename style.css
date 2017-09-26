@@ -32,7 +32,7 @@ body {
   color: #fff;
   text-transform: uppercase;
   font-family: 'Raleway-Bold', sans-serif;
-  font-size: 0.625em;
+  font-size: 20;
   font-weight: 900;
   letter-spacing: 1.5;
   text-align: center;
@@ -42,7 +42,7 @@ body {
   color: #fff;
   text-transform: uppercase;
   font-family: 'Raleway-Bold', sans-serif;
-  font-size: 3.500em;
+  font-size: 56px;
   font-weight: 900;
   letter-spacing: 14px;
   text-align: center;
@@ -246,7 +246,7 @@ header {
   font-size: 18px;
   line-height: 28px;
   color: #aaa;
-  width: 800px;
+  max-width: 800px;
   margin: 40px 0 100px 0;
 }
 .separator {
@@ -622,5 +622,35 @@ address{
   footer {
     padding: 0 20px;
     box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 486px){
+  .name {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 30px;
+    letter-spacing: 8px;
+  }
+  .exploreBtn {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+  .right, .left, .middle {
+    width: 100%;
+  }
+  .imgBox {
+    max-width: 485px;
+    max-height: 285px;
+    width: 100%;
+    height: 100%;
+  }
+  .img {
+    top: -25%;
+    width: 160%;
+  }
+  .modalContainer {
+    width: 80%;
   }
 }
