@@ -1,0 +1,53 @@
+{
+  "_class": "group",
+  "do_objectID": "B0F467C6-2FDC-4C9A-B88A-89CB7242A14D",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 316,
+    "width": 284,
+    "x": 0,
+    "y": 0
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "CB09BC10-33A8-4BDC-9A13-D6C7A8617F33"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "AE4111B6-84AA-4B2C-8546-81F3CBFA6ABC"
+    },
+    {
+      "class": "text",
+      "id": "2F5651A4-4322-4F9A-AA3D-4C8DB39C3E5F"
+    }
+  ],
+  "name": "Photo box",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}
