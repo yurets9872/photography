@@ -265,7 +265,7 @@ header {
 .galleryContent {
   width: 100%;
   padding: 106px 0;
-  background-color: #f9f9f9;
+  background-color: #fff;
   float: left;
 }
 
@@ -283,7 +283,7 @@ body { font-family: sans-serif; }
 
 .grid {
   background: #fff;
-  margin: 0 10px;  
+  margin: 0 40px;
 }
 
 /* clear fix */
