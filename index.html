@@ -3,14 +3,10 @@
   <title> OVX - photography website </title>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous">
-  </script>
+
 </head>
 <body>
-  <div class="fullPage">
+  <!-- <div class="fullPage">
     <div class="titleWrapper">
       <div class="name">Andrew Tsyganchuk</div>
       <div class="title">Photographer</div>
@@ -21,7 +17,7 @@
       <a href="">Twitter</a>
       <a href="">Instagram</a>
     </div>
-  </div>
+  </div> -->
   <header id="header">
     <a href=""><div class="logo"></div></a>
     <div onclick="menuToggle()" class="burger"></div>
@@ -47,193 +43,141 @@
       </div>
     </div>
     <div class="galleryContent">
-      <div class="gallery">
-        <div class="right">
-          <div class="imgBox largeImg noLeftMargin">
-            <div class="imgOverlay">
-              <div class="imgCategory">Countryside</div>
-              <div class="imgTitle">New York City</div>
-            </div>
-            <img class="img" src="images/pexels-photo-105256.jpg" alt="">
+      <div class="grid">
+          <div class="grid-sizer"></div>
+          <div class="grid-item">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" />
           </div>
-          <div class="imgBox tinyImg noLeftMargin">
-            <div class="imgOverlay">
-              <div class="imgCategory">Countryside</div>
-              <div class="imgTitle">New York City</div>
-            </div>
-            <img class="img" src="images/pexels-photo-105600.jpg" alt="">
+          <div class="grid-item">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" />
           </div>
-          <div class="imgBox tinyImg">
-            <div class="imgOverlay">
-              <div class="imgCategory">Countryside</div>
-              <div class="imgTitle">New York City</div>
-            </div>
-            <img class="img" src="images/pexels-photo-105905.jpg" alt="">
+          <div class="grid-item">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" />
+          </div>
+          <div class="grid-item">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" />
+          </div>
+          <div class="grid-item">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" />
+          </div>
+          <div class="grid-item">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
+          </div>
+          <div class="grid-item">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" />
+          </div>
+          <div class="grid-item">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" />
+          </div>
+          <div class="grid-item">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" />
+          </div>
+          </div>
+
+    </div>
+        <div class="clear"></div>
+        <div class="instaContainer">
+          <a class="instaFollowBox" href="#">
+            <img class="instaLogo" src="images/insta.png" alt="">
+            <div class="instaTitle">Follow me on Instagram</div>
+          </a>
+        </div>
+        <div class="modal">
+          <div class="modalContainer">
+            <div class="close btn"></div>
+            <div class="mainHeading">Once photography, always photography</div>
+            <div class="separator"></div>
+            <form action="">
+              <input type="text" name="" value="" placeholder="Your name">
+              <input type="email" name="" value="" placeholder="Your email">
+              <textarea name="name" placeholder="Your message" rows="8" cols="80"></textarea>
+              <button type="submit" name="button">Send message</button>
+            </form>
           </div>
         </div>
-        <div class="left">
-          <div class="imgBox tinyImg">
-            <div class="imgOverlay">
-              <div class="imgCategory">Countryside</div>
-              <div class="imgTitle">New York City</div>
-            </div>
-            <img class="img" src="images/pexels-photo-108447.jpg" alt=""></div>
-            <div class="imgBox tinyImg noRightMargin">
-              <div class="imgOverlay">
-                <div class="imgCategory">Countryside</div>
-                <div class="imgTitle">New York City</div>
-              </div>
-              <img class="img" src="images/pexels-photo-109914.jpg" alt=""></div>
-              <div class="imgBox largeImg noRightMargin">
-                <div class="imgOverlay">
-                  <div class="imgCategory">Countryside</div>
-                  <div class="imgTitle">New York City</div>
-                </div>
-                <img class="img" src="images/pexels-photo-112764.jpg" alt=""></div>
-              </div>
-              <div class="middle">
-                <div class="imgBox middleImg noLeftMargin">
-                  <div class="imgOverlay">
-                    <div class="imgCategory">Countryside</div>
-                    <div class="imgTitle">New York City</div>
-                  </div>
-                  <img class="img" src="images/pexels-photo-110647.jpg" alt=""></div>
-                  <div class="imgBox middleImg">
-                    <div class="imgOverlay">
-                      <div class="imgCategory">Countryside</div>
-                      <div class="imgTitle">New York City</div>
-                    </div>
-                    <img class="img" src="images/pexels-photo-105905.jpg" alt=""></div>
-                    <div class="imgBox middleImg noRightMargin">
-                      <div class="imgOverlay">
-                        <div class="imgCategory">Countryside</div>
-                        <div class="imgTitle">New York City</div>
-                      </div>
-                      <img class="img" src="images/pexels-photo-105256.jpg" alt=""></div>
-                    </div>
-                    <div class="right">
-                      <div class="imgBox largeImg noLeftMargin">
-                        <div class="imgOverlay">
-                          <div class="imgCategory">Countryside</div>
-                          <div class="imgTitle">New York City</div>
-                        </div>
-                        <img class="img" src="images/pexels-photo-110647.jpg" alt=""></div>
-                        <div class="imgBox tinyImg noLeftMargin">
-                          <div class="imgOverlay">
-                            <div class="imgCategory">Countryside</div>
-                            <div class="imgTitle">New York City</div>
-                          </div>
-                          <img class="img" src="images/pexels-photo-105256.jpg" alt=""></div>
-                          <div class="imgBox tinyImg ">
-                            <div class="imgOverlay">
-                              <div class="imgCategory">Countryside</div>
-                              <div class="imgTitle">New York City</div>
-                            </div>
-                            <img class="img" src="images/pexels-photo-112764.jpg" alt=""></div>
-                          </div>
-                          <div class="left">
-                            <div class="imgBox tinyImg">
-                              <div class="imgOverlay">
-                                <div class="imgCategory">Countryside</div>
-                                <div class="imgTitle">New York City</div>
-                              </div>
-                              <img class="img" src="images/pexels-photo-109914.jpg" alt=""></div>
-                              <div class="imgBox tinyImg noRightMargin">
-                                <div class="imgOverlay">
-                                  <div class="imgCategory">Countryside</div>
-                                  <div class="imgTitle">New York City</div>
-                                </div>
-                                <img class="img" src="images/pexels-photo-105905.jpg" alt=""></div>
-                                <div class="imgBox largeImg noRightMargin">
-                                  <div class="imgOverlay">
-                                    <div class="imgCategory">Countryside</div>
-                                    <div class="imgTitle">New York City</div>
-                                  </div>
-                                  <img class="img" src="images/pexels-photo-105256.jpg" alt=""></div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="clear"></div>
-                            <div class="instaContainer">
-                              <a class="instaFollowBox" href="#">
-                                <img class="instaLogo" src="images/insta.png" alt="">
-                                <div class="instaTitle">Follow me on Instagram</div>
-                              </a>
-                            </div>
-                            <div class="modal">
-                              <div class="modalContainer">
-                                <div class="close btn"></div>
-                                <div class="mainHeading">Once photography, always photography</div>
-                                <div class="separator"></div>
-                                <form action="">
-                                  <input type="text" name="" value="" placeholder="Your name">
-                                  <input type="email" name="" value="" placeholder="Your email">
-                                  <textarea name="name" placeholder="Your message" rows="8" cols="80"></textarea>
-                                  <button type="submit" name="button">Send message</button>
-                                </form>
-                              </div>
-                            </div>
-                            <footer>
-                              <div class="address">
-                                <div class="newProject btn">Start a new project?</div>
-                                <address>UltraLinxStudio, High Rize Building <br>
-                                  Random Street Name <br>
-                                  Amazing City <br>
-                                  37284 <br>
-                                  United Kingdom
-                                </address>
-                              </div>
-                              <div class="footerLists">
-                                <ul class="footerNav">
-                                  <li><a href="">Projects</a></li>
-                                  <li><a href="">Client List</a></li>
-                                  <li><a href="">About</a></li>
-                                  <li><a href="">Services</a></li>
-                                  <li><a href="">Privacy Policy</a></li>
-                                  <li><a href="">Contact</a></li>
-                                </ul>
-                                <ul class="socials">
-                                  <li><a href="">Facebook</a></li>
-                                  <li><a href="">Twitter</a></li>
-                                  <li><a href="">Dribbble</a></li>
-                                  <li><a href="">Pinterest</a></li>
-                                  <li><a href="">Instagram</a></li>
-                                </ul>
-                              </div>
+        <footer>
+          <div class="address">
+            <div class="newProject btn">Start a new project?</div>
+            <address>UltraLinxStudio, High Rize Building <br>
+              Random Street Name <br>
+              Amazing City <br>
+              37284 <br>
+              United Kingdom
+            </address>
+          </div>
+          <div class="footerLists">
+            <ul class="footerNav">
+              <li><a href="">Projects</a></li>
+              <li><a href="">Client List</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+            <ul class="socials">
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Twitter</a></li>
+              <li><a href="">Dribbble</a></li>
+              <li><a href="">Pinterest</a></li>
+              <li><a href="">Instagram</a></li>
+            </ul>
+          </div>
 
-                            </footer>
-                            <div class="clear"></div>
-                          </body>
-                          <script>
-                          function menuToggle() {
-                            var opened = document.getElementsByClassName("fullNav")[0].classList.contains('fullNavVisible');
-                            if (opened) {
-                              document.getElementsByClassName("fullNav")[0].classList.remove('fullNavVisible');
-                            } else {
-                              document.getElementsByClassName('fullNav')[0].className += ' fullNavVisible';
-                            }
-                          }
-                          $('.btn').click(function(){
-                            $('.modal').toggle();
-                          });
-                          </script>
+        </footer>
+        <div class="clear"></div>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+        </script>
+        <script src="js/masonry.pkgd.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script>
+        // external js: masonry.pkgd.js, imagesloaded.pkgd.js
 
-                          <script>
-                          function scrollNav() {
-                            $('.exploreBtn').click(function(){
-                              // //Toggle Class
-                              //   $(".active").removeClass("active");
-                              //   $(this).closest('li').addClass("active");
-                              //    var theClass = $(this).attr("class");
-                              //     $('.'+theClass).parent('li').addClass('active');
-                              //Animate
-                              $('html, body').stop().animate({
-                                scrollTop: $( $(this).attr('href') ).offset().top
-                              }, 800);
-                              return false;
-                            });
-                            $('.scrollTop a').scrollTop();
-                          }
-                          scrollNav();
-                          </script>
-                          </html>
+            // init Masonry after all images have loaded
+            var $grid = $('.grid').imagesLoaded( function() {
+            $grid.masonry({
+              itemSelector: '.grid-item',
+              percentPosition: true,
+              columnWidth: '.grid-sizer'
+            });
+            });
+
+        </script>
+      </body>
+
+      <script>
+      function menuToggle() {
+        var opened = document.getElementsByClassName("fullNav")[0].classList.contains('fullNavVisible');
+        if (opened) {
+          document.getElementsByClassName("fullNav")[0].classList.remove('fullNavVisible');
+        } else {
+          document.getElementsByClassName('fullNav')[0].className += ' fullNavVisible';
+        }
+      }
+      $('.btn').click(function(){
+        $('.modal').toggle();
+      });
+      </script>
+
+      <script>
+      function scrollNav() {
+        $('.exploreBtn').click(function(){
+          // //Toggle Class
+          //   $(".active").removeClass("active");
+          //   $(this).closest('li').addClass("active");
+          //    var theClass = $(this).attr("class");
+          //     $('.'+theClass).parent('li').addClass('active');
+          //Animate
+          $('html, body').stop().animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+          }, 800);
+          return false;
+        });
+        $('.scrollTop a').scrollTop();
+      }
+      scrollNav();
+      </script>
+
+      </html>

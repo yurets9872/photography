@@ -1,0 +1,150 @@
+<div class="galleryContent">
+  <div class="gallery">
+    <!-- <div class="right">
+      <div class="imgBox largeImg noLeftMargin">
+        <div class="imgOverlay">
+          <div class="imgCategory">Countryside</div>
+          <div class="imgTitle">New York City</div>
+        </div>
+        <img class="img" src="images/pexels-photo-105256.jpg" alt="">
+      </div>
+      <div class="imgBox tinyImg noLeftMargin">
+        <div class="imgOverlay">
+          <div class="imgCategory">Countryside</div>
+          <div class="imgTitle">New York City</div>
+        </div>
+        <img class="img" src="images/pexels-photo-105600.jpg" alt="">
+      </div>
+      <div class="imgBox tinyImg">
+        <div class="imgOverlay">
+          <div class="imgCategory">Countryside</div>
+          <div class="imgTitle">New York City</div>
+        </div>
+        <img class="img" src="images/pexels-photo-105905.jpg" alt="">
+      </div>
+    </div> -->
+    <!-- <div class="left">
+      <div class="imgBox tinyImg">
+        <div class="imgOverlay">
+          <div class="imgCategory">Countryside</div>
+          <div class="imgTitle">New York City</div>
+        </div>
+        <img class="img" src="images/pexels-photo-108447.jpg" alt=""></div>
+        <div class="imgBox tinyImg noRightMargin">
+          <div class="imgOverlay">
+            <div class="imgCategory">Countryside</div>
+            <div class="imgTitle">New York City</div>
+          </div>
+          <img class="img" src="images/pexels-photo-109914.jpg" alt=""></div>
+          <div class="imgBox largeImg noRightMargin">
+            <div class="imgOverlay">
+              <div class="imgCategory">Countryside</div>
+              <div class="imgTitle">New York City</div>
+            </div>
+            <img class="img" src="images/pexels-photo-112764.jpg" alt=""></div>
+          </div> -->
+          <div class="middle">
+            <div class="imgBox middleImg noLeftMargin">
+              <div class="imgOverlay">
+                <div class="imgCategory">Countryside</div>
+                <div class="imgTitle">New York City</div>
+              </div>
+              <img class="img" src="images/pexels-photo-110647.jpg" alt=""></div>
+              <div class="imgBox middleImg">
+                <div class="imgOverlay">
+                  <div class="imgCategory">Countryside</div>
+                  <div class="imgTitle">New York City</div>
+                </div>
+                <img class="img" src="images/pexels-photo-105905.jpg" alt=""></div>
+                <div class="imgBox middleImg noRightMargin">
+                  <div class="imgOverlay">
+                    <div class="imgCategory">Countryside</div>
+                    <div class="imgTitle">New York City</div>
+                </div>
+                  <img class="img" src="images/pexels-photo-105256.jpg" alt=""></div>
+          </div>
+          <div class="middle">
+            <div class="imgBox middleImg noLeftMargin">
+              <div class="imgOverlay">
+                <div class="imgCategory">Countryside</div>
+                <div class="imgTitle">New York City</div>
+              </div>
+              <img class="img" src="images/pexels-photo-110647.jpg" alt=""></div>
+              <div class="imgBox middleImg">
+                <div class="imgOverlay">
+                  <div class="imgCategory">Countryside</div>
+                  <div class="imgTitle">New York City</div>
+                </div>
+                <img class="img" src="images/pexels-photo-105905.jpg" alt=""></div>
+                <div class="imgBox middleImg noRightMargin">
+                  <div class="imgOverlay">
+                    <div class="imgCategory">Countryside</div>
+                    <div class="imgTitle">New York City</div>
+                </div>
+                  <img class="img" src="images/pexels-photo-105256.jpg" alt=""></div>
+          </div>
+          <div class="middle">
+            <div class="imgBox middleImg noLeftMargin">
+              <div class="imgOverlay">
+                <div class="imgCategory">Countryside</div>
+                <div class="imgTitle">New York City</div>
+              </div>
+              <img class="img" src="images/pexels-photo-110647.jpg" alt=""></div>
+              <div class="imgBox middleImg">
+                <div class="imgOverlay">
+                  <div class="imgCategory">Countryside</div>
+                  <div class="imgTitle">New York City</div>
+                </div>
+                <img class="img" src="images/pexels-photo-105905.jpg" alt=""></div>
+                <div class="imgBox middleImg noRightMargin">
+                  <div class="imgOverlay">
+                    <div class="imgCategory">Countryside</div>
+                    <div class="imgTitle">New York City</div>
+                </div>
+                  <img class="img" src="images/pexels-photo-105256.jpg" alt=""></div>
+          </div>
+
+
+
+                <!-- <div class="right">
+                  <div class="imgBox largeImg noLeftMargin">
+                    <div class="imgOverlay">
+                      <div class="imgCategory">Countryside</div>
+                      <div class="imgTitle">New York City</div>
+                    </div>
+                    <img class="img" src="images/pexels-photo-110647.jpg" alt=""></div>
+                    <div class="imgBox tinyImg noLeftMargin">
+                      <div class="imgOverlay">
+                        <div class="imgCategory">Countryside</div>
+                        <div class="imgTitle">New York City</div>
+                      </div>
+                      <img class="img" src="images/pexels-photo-105256.jpg" alt=""></div>
+                      <div class="imgBox tinyImg ">
+                        <div class="imgOverlay">
+                          <div class="imgCategory">Countryside</div>
+                          <div class="imgTitle">New York City</div>
+                        </div>
+                        <img class="img" src="images/pexels-photo-112764.jpg" alt=""></div>
+                      </div> -->
+                      <!-- <div class="left">
+                        <div class="imgBox tinyImg">
+                          <div class="imgOverlay">
+                            <div class="imgCategory">Countryside</div>
+                            <div class="imgTitle">New York City</div>
+                          </div>
+                          <img class="img" src="images/pexels-photo-109914.jpg" alt=""></div>
+                          <div class="imgBox tinyImg noRightMargin">
+                            <div class="imgOverlay">
+                              <div class="imgCategory">Countryside</div>
+                              <div class="imgTitle">New York City</div>
+                            </div>
+                            <img class="img" src="images/pexels-photo-105905.jpg" alt=""></div>
+                            <div class="imgBox largeImg noRightMargin">
+                              <div class="imgOverlay">
+                                <div class="imgCategory">Countryside</div>
+                                <div class="imgTitle">New York City</div>
+                              </div>
+                              <img class="img" src="images/pexels-photo-105256.jpg" alt=""></div>
+                            </div> -->
+                          </div>
+                        </div>

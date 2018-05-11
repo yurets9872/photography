@@ -268,6 +268,53 @@ header {
   background-color: #f9f9f9;
   float: left;
 }
+
+
+
+
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: #fff;
+  margin: 0 10px;  
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+  padding: 20px;
+  /* margin: 20px 0; */
+
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+}
+
+
+
+
 .gallery {
   max-width: 1170px;
   margin: 0 auto;
@@ -649,7 +696,7 @@ address{
   .img {
     top: -25%;
     width: 160%;
-  } 
+  }
   .modalContainer {
     width: 80%;
   }
