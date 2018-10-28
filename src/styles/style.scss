@@ -235,3 +235,221 @@ body{
   background-image:
   url("../image/compas.svg");
 }
+
+.feedbackContainer{
+  width: 1000px;
+  height: 360px;
+  background-color: #000;
+  padding-top: 32px;
+  padding-left: 32px;
+  position: absolute;
+  right: -490px;
+  top: 924px;
+}
+.feedbackTitle{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #BDBDBD;
+  margin-bottom: 32px;
+}
+.feedbackContent{
+  max-width: 535px;
+  position: relative;
+}
+
+
+.personBox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.personPic{
+  width: 56px;
+  height: 56px;
+  background: #e8e8e8;
+  margin-right: 16px;
+}
+.personInfo{
+  display: flex;
+  flex-direction: column;
+}
+.personName{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 4px;
+}
+.personCaption{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #D8D8D8;
+}
+.feedbackCopy{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-top: 24px;
+}
+
+.carouselControls{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: -8px;
+  right: 50px;
+  width: 80px;
+  height: 50px;
+}
+.carousel-control-prev-icon{
+  width: 32px !important;
+  height: 32px !important;
+  background-image:
+  url("../image/arrow_prev.svg") !important;
+}
+.carousel-control-next-icon{
+  width: 32px !important;
+  height: 32px !important;
+  background-image:
+  url("../image/arrow_next.svg") !important;
+}
+.carousel-control-next{
+  width: 32px !important;
+}
+.carousel-control-prev{
+  width: 32px !important;
+}
+.carousel-indicators {
+    bottom: -64px !important;
+    left: -430px !important;
+}
+
+.gallerySectionBg{
+  width: 100%;
+  background-color: #fff;
+}
+.gallerySection{
+  width: 1vw;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #fff;
+  margin-top: 128px;
+}
+.galleryContainer{
+  padding-left: -30px !important;
+  padding-right: -30px !important;
+}
+.galleryTitle{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #BDBDBD;
+  margin-bottom: 32px;
+  margin-left: 15px;
+}
+.galleryItem{
+  max-width: 370px;
+  height: 440px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  transition: easy-out, easy-in, 200ms;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+
+}
+.galleryItem:hover{
+  background-color: #FAFBFD;
+  cursor: pointer;
+}
+.itemPic{
+  width: 100%;
+  height: 240px;
+  background-color: #e8e8e8;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
+}
+.itemContent{
+  padding: 24px;
+}
+.itemTag{
+  display: flex;
+  flex-direction: row;
+}
+.tagItem, .tagSeperator{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #bdbdbd;
+  margin-right: 8px;
+}
+.itemTitle{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  font-size: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  padding-top: 16px;
+  padding-bottom: 16px
+}
+.itemDiscr{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+
+.linkRectangle--light{
+  width: 100%;
+  height: 240px;
+  background-color: #FFE9C3;
+  padding: 24px;
+  @include cubeTitle--ligth
+}
+.linkRectangle--light > .arrow_light{
+  margin-top: 144px;
+}
+
+
+
+footer{
+  position: relative;
+}
+.footerImageContainer{
+  position: relative;
+  // top: -300px;
+  // right: -800px;
+}
+.footerImageContainer .linkCube--dark{
+  
+}
